@@ -51,22 +51,19 @@ body > main {
     height: auto;
     padding-right: 16px;
 }
-
-#comments > form {
-    text-align: right;
-}
-
-#comments > form >input[name=comment] {
+#comments > form > input[type=text] {
     width: 100%;
-    height: 100px;
+    height:200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 #comments > section > img {
-    width: 150px;
+    width: 100px;
     height: auto;
     padding-right: 16px;
 }
-
 body > footer >h3 {
     padding: 32px;
     background-color: dodgerblue;
