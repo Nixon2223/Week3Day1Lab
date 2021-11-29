@@ -33,12 +33,23 @@ body > main {
     width: 60%;
 }
 
-body > main > div{
+body > main > section{
     display:flex;
 }
 
-#breaking_news > p {
-    background-color: dimgrey;
+#breaking_news {
+    padding-left: 32px;
+}
+
+#breaking_news > section {
+    display:flex;
+    padding-top: 16px;
+}
+
+#breaking_news > section > img {
+    width: 20%;
+    height: auto;
+    padding-right: 16px;
 }
 
 body > footer >h3 {
