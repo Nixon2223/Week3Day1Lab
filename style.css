@@ -33,7 +33,7 @@ body > main {
     width: 60%;
 }
 
-body > main > section{
+#top {
     display:flex;
 }
 
