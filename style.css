@@ -47,7 +47,22 @@ body > main > section{
 }
 
 #breaking_news > section > img {
-    width: 20%;
+    width: 150px;
+    height: auto;
+    padding-right: 16px;
+}
+
+#comments > form {
+    text-align: right;
+}
+
+#comments > form >input[name=comment] {
+    width: 100%;
+    height: 100px;
+}
+
+#comments > section > img {
+    width: 150px;
     height: auto;
     padding-right: 16px;
 }
@@ -58,3 +73,4 @@ body > footer >h3 {
     text-align: center;
     color: white;
 }
+
